@@ -1,0 +1,12 @@
+---
+
+###
+# AWX
+###
+
+# Dependencies
+awx_prerequisites_packages:
+  - build-essential
+  - gettext
+  - g++
+  - bzip2

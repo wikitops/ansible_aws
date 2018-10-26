@@ -1,0 +1,7 @@
+---
+
+- hosts: awx
+  remote_user: vagrant
+  become: yes
+  roles:
+    - awx

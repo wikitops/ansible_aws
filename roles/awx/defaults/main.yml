@@ -1,0 +1,15 @@
+---
+
+###
+# AWX
+###
+
+# Version
+awx_version: 2.0.1
+
+# Sources
+awx_source_repository_url: https://github.com/ansible/awx/archive/{{ awx_version }}.tar.gz
+awx_source_dir: /opt
+
+# Postgres
+awx_postgres_data_dir: /data/awx/postgres

@@ -1,0 +1,12 @@
+---
+
+###
+# AWX
+###
+
+# Dependencies
+awx_prerequisites_packages:
+  - '@Development tools'
+  - gettext
+  - gcc-c++
+  - bzip2

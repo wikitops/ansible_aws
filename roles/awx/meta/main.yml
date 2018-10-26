@@ -1,0 +1,15 @@
+---
+
+dependencies:
+
+  - role: docker
+    vars:
+      docker_users:
+        - vagrant
+
+  - role: pip
+    vars:
+      pip_packages:
+        - ansible
+
+  - role: nodejs
